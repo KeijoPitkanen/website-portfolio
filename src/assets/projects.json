@@ -7,7 +7,7 @@
   },
   {
     "name": "Personal Website",
-    "link": "",
+    "link": "https://keijopitkanen.github.io/website-portfolio",
     "usedTechnologies": "Javascript, React, CSS, Github pages",
     "description": "This very website. A personal portfolio website hosted through github pages."
   },
