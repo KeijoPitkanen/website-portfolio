@@ -50,3 +50,8 @@ a {
   font-size: 14px;
   color: #ffffff;
 }
+@media (max-width: 600px) {
+  .project  {
+    width: 90%;
+  }
+}
