@@ -1,9 +1,13 @@
 import "./Project.css";
-import React from "react";
 
-function Project({ name, link, usedTechnologies, description }) {
+function Project({ name, link, usedTechnologies, description, code, index }) {
   return (
-    <div className="project">
+    <div
+      className="project"
+      style={{
+        "--animation-delay": `${index * 0.3}s`,
+      }}
+    >
       <a href={link}>
         <h1 className="project-title">{name}</h1>
       </a>
@@ -12,4 +16,5 @@ function Project({ name, link, usedTechnologies, description }) {
     </div>
   );
 }
+
 export default Project;

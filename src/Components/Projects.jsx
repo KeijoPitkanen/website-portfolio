@@ -5,7 +5,6 @@ import Project from "./Project";
 import projectData from "/src/assets/projects.json";
 
 function Projects() {
-  //Add new projects to src/assets/projects.json
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
@@ -33,6 +32,7 @@ function Projects() {
                 usedTechnologies={project.usedTechnologies}
                 description={project.description}
                 link={project.link}
+                index={index}
               />
             ))}
           </div>
