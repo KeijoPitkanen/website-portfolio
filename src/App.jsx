@@ -16,7 +16,7 @@ function App() {
           path="/website-portfolio/projects"
           element={<Projects />}
         />
-        <Route exact path="/website-portfolio/" element={<About />} />
+        <Route exact path="/website-portfolio" element={<About />} />
       </Routes>
     </Router>
   );
