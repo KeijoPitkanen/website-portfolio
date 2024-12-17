@@ -11,6 +11,7 @@ a {
   opacity: 0;
   animation: fadeIn 1s forwards;
   animation-delay: var(--animation-delay);
+  transition: box-shadow 0.3s ease-in-out; /* Add transition property */
 }
 
 @keyframes fadeIn {
