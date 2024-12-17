@@ -2,16 +2,14 @@ import "./SharedStyles.css";
 import "./Projects.css";
 import React, { useEffect, useState } from "react";
 import Project from "./Project";
+import projectData from "/src/assets/projects.json";
 
 function Projects() {
   //Add new projects to src/assets/projects.json
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("src/assets/projects.json")
-      .then((response) => response.json())
-      .then((data) => setProjects(data))
-      .catch((error) => console.error("Error fetching projects:", error));
+    setProjects(projectData);
   }, []);
 
   return (
