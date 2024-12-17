@@ -1,12 +1,19 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 .main-view  {
     margin: auto;
     width: 80%;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     background-color: #7dd9c5;
     padding-top: 50px;
     padding-left: 2%;
+    overflow: auto;
   }
 
 h1 {
@@ -24,17 +31,20 @@ a{
 }
 
 .text-box {
+    display: flex;
+    flex-direction: column;
     width: 80%;
     border-radius: 8px;
     padding: 1%;
     background-color: #5fba96;
     margin-top: 20px;
+    box-sizing: border-box;
   }
 
 .link-box   {
     background-color: #40ad82;
-    display: inline-block; /* Makes the box fit the size of the text */
-    padding: 5px 10px; /* Adds some padding around the text */ 
+    display: inline-block;
+    padding: 5px 10px;
     border-radius: 4px; 
 
 }

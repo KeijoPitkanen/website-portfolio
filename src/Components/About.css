@@ -66,6 +66,8 @@ h2 {
   align-items: center;
   gap: 20px;
   padding-top: 20px; 
+  box-sizing: border-box;
+
 }
 
 .profile-picture {
@@ -78,3 +80,18 @@ h2 {
   display: flex; 
   justify-content: center; 
   align-items: center; }
+
+@media (max-width: 900px) {
+  .profile-summary {
+    flex-direction: column; align-items: flex-start; 
+  } 
+  .profile-picture {
+    width: 80%; height: auto; 
+  } 
+  .profile-picture-container {
+    width: 100%; justify-content: center; 
+  } 
+  .likes-dislikes {
+    width: 100%; margin-top: 20px; 
+  } 
+}
