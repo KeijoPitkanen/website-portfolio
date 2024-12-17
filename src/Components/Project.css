@@ -17,6 +17,7 @@ a {
 @media (max-width: 700px) {
   .project  {
     width: 90%;
+    margin-right: auto;
   }
 }
 
