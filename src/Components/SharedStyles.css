@@ -1,0 +1,40 @@
+.main-view  {
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #7dd9c5;
+    padding-top: 50px;
+    padding-left: 2%;
+  }
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.text-box {
+    width: 80%;
+    border-radius: 8px;
+    padding: 1%;
+    background-color: #5fba96;
+    margin-top: 20px;
+  }
+
+.link-box   {
+    background-color: #40ad82;
+    display: inline-block; /* Makes the box fit the size of the text */
+    padding: 5px 10px; /* Adds some padding around the text */ 
+    border-radius: 4px; 
+
+}

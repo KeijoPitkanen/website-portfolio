@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Jellyfin-media-renamer (JMR)",
+    "link": "https://github.com/KeijoPitkanen/Jellyfin-media-renamer",
+    "usedTechnologies": "Java, Linux, Jellyfin",
+    "description": "A command line tool that mass renames files to comply with the Jellyfin naming scheme"
+  },
+  {
+    "name": "Personal Website",
+    "link": "",
+    "usedTechnologies": "Javascript, React, CSS, Github pages",
+    "description": "This very website. A personal portfolio website hosted through github pages."
+  },
+  {
+    "name": "COBOL Tetris (WIP)",
+    "link": "",
+    "usedTechnologies": "COBOL",
+    "description": "A in terminal version of Tetris written in COBOL."
+  },
+  {
+    "name": "Countdown solver (WIP)",
+    "link": "",
+    "usedTechnologies": "Python",
+    "description": "A python algorithm that solves the math problem from the game show countdown"
+  }
+]

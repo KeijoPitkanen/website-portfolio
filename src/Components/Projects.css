@@ -1,0 +1,8 @@
+/* Components/Projects.css */
+  
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
