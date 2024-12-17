@@ -8,9 +8,13 @@ function Project({ name, link, usedTechnologies, description, code, index }) {
         "--animation-delay": `${index * 0.3}s`,
       }}
     >
-      <a href={link}>
+      {link ? (
+        <a href={link}>
+          <h1 className="project-title">{name}</h1>
+        </a>
+      ) : (
         <h1 className="project-title">{name}</h1>
-      </a>
+      )}
       <p className="project-desc">{description}</p>
       <p className="project-technologies">{usedTechnologies}</p>
     </div>
