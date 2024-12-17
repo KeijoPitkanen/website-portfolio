@@ -9,7 +9,7 @@ function About() {
       <div className="welcome-container">
         <h1 className="welcome">Welcome!</h1>
       </div>
-      <div className="page-desc">
+      <div className="page-desc-abot">
         <h1>Mikko "Keijo" Pitkänen</h1>
       </div>
 
@@ -56,7 +56,6 @@ function About() {
           blog alongside with my other socials.
         </p>
       </div>
-      <div></div>
     </div>
   );
 }
